@@ -290,12 +290,12 @@
     border-color: #213140;
   }
   .Loloch-3 input:checked + label {
-    background-color: #4B9DEA;
+    background-color: #275EFE;
     color: #FFF;
-    box-shadow: 0 0 10px rgba(102, 179, 251, 0.5);
-    border-color: #4B9DEA;
+    box-shadow: 0 0 10px rgb(102 179 251 / 50%);
+    border-color: #275EFE;
     z-index: 1;
-  }
+}
   .Loloch-3 input:focus + label {
     outline: dotted 1px #CCC;
     outline-offset: 0.45rem;
@@ -338,7 +338,7 @@
 
   
 .Loloch-4 .btn {
-    border: 3px solid #1a1a1a;
+    border: 3px solid #275EFE;
     display: inline-block;
     padding: 10px;
     position: relative;
@@ -358,7 +358,7 @@
     color: #1a1a1a;
   }
   .Loloch-4 input[type=radio].toggle + label:after {
-    background: #1a1a1a;
+    background: #275EFE;
     content: "";
     height: 100%;
     position: absolute;
@@ -393,10 +393,10 @@
 
 
 
-.Loloch-5 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
+  .Loloch-5 {
+    position: absolute;
+    width: 40%;
+    margin-top: 30px;
 }
 
 .Loloch-5 .smile-rating-container {
